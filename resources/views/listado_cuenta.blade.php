@@ -17,6 +17,7 @@
                 Buscar
                 <input type="search" class="form-control form-control-sm" placeholder="" aria-controls="dataTable">
             </label>
+            
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
               <thead>
@@ -46,5 +47,5 @@
         </div>
         <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
       </div>
-
+@endsection  
     @stop

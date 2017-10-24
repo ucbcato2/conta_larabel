@@ -4,9 +4,9 @@ namespace sisconta\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use ucbconta\Categoria;
+use sisconta\Ficha;
 use Illuminate\Support\Facades\Redirect;
-use ucbconta\Http\Requests\VistaFichaFormRequest;
+use sisconta\Http\Requests\VistaFichaFormRequest;
 use DB;
 class VistaFichaController extends Controller
 {
@@ -32,6 +32,7 @@ class VistaFichaController extends Controller
             //con parametros: fichas y el texto de busqueda en searchtext
             return view('secre.ficha.index',["fichas"=>$fichas,"searchText"=>$query]);
         }
+        
     }
     public function create()
     {
