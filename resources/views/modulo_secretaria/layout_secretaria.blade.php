@@ -27,38 +27,35 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="index_sec.html">
+          <a class="nav-link" href="registrar_ingreso">
             <i class="fa fa-fw fa-dashboard"></i>
             <span class="nav-link-text">Inicio</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="registrar_in.html">
+          <a class="nav-link" href="registrar_ingreso">
             <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Regsitrar Ingresos</span>
+            <span class="nav-link-text">Registrar Ingresos</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-table"></i>
-            <span class="nav-link-text">Regsitrar Egresos</span>
+            <span class="nav-link-text">Registrar Egresos</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseComponents">
             <li>
               <a href="registrar_egreso">Registrar ficha Egreso</a>
             </li>
             <li>
-              <a href="registrar_gasto">Registrar gasto</a>
-            </li>
-            <li>
-              <a href="registrar_inversion">Regsitrar Inversion</a>
+              <a href="registrar_inversion">Registrar ficha Inversion</a>
             </li>
           </ul>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="registrar_transferencia">
             <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text" >Regsitrar Trasnferencias</span>
+            <span class="nav-link-text" >Registrar Transferencias</span>
           </a>
         </li>
 
@@ -82,8 +79,11 @@
 
 <!-- Content begin -->
 
-  @yield('content')  
-
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      @yield('content')
+    </div>
+  </div>
 <!-- Content finish-->
  
     <!-- /.container-fluid-->
@@ -91,7 +91,7 @@
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>Grupo 2 Contabilidad 2017 2017</small>
+          <small>Grupo 2 Contabilidad 2017</small>
         </div>
       </div>
     </footer>

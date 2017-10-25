@@ -30,6 +30,12 @@
     </button>
   <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+              <a class="nav-link" href="listado_usuarios">
+                  <i class="fa fa-fw fa-dashboard"></i>
+                  <span class="nav-link-text">Inicio</span>
+              </a>
+          </li>
          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-table"></i>
@@ -105,7 +111,7 @@
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>Grupo 2 Contabilidad 2017 2017</small>
+          <small>Grupo 2 Contabilidad 2017 </small>
         </div>
       </div>
     </footer>
